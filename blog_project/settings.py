@@ -157,4 +157,4 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-django_deroku.settings(locals())
+django_heroku.settings(locals())
